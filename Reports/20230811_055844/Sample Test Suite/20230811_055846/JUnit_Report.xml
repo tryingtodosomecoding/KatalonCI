@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sample Test Suite" time="69.392" tests="1" failures="0" errors="0">
+   <testsuite name="Sample Test Suite" tests="1" failures="0" errors="0" time="69.392" skipped="0" timestamp="2023-08-11 05:58:51" hostname="lakshmimukkur - lakshmis-mbp.ht.home" id="Test Suites/Sample Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/lakshmimukkur/Katalon Studio/Web_Demo/Reports/20230811_055844/Sample Test Suite/20230811_055846"/>
+         <property name="logFiles" value="/Users/lakshmimukkur/Katalon Studio/Web_Demo/Reports/20230811_055844/Sample Test Suite/20230811_055846/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lakshmimukkur - lakshmis-mbp.ht.home"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;se:cdpVersion&quot;: &quot;114.0.5735.91&quot;,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49879&quot;
+  },
+  &quot;requestId&quot;: &quot;f7f743c3-0e76-4478-b3cc-3aa77ead9108&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;114.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1264122,
+    &quot;organizationId&quot;: &quot;902399&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir6968_737401738&quot;
+  },
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.15:4444/session/13f14b0a8393672280e901178a4223aa/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;webauthn:extension:minPinLength&quot;: true,
+  &quot;webauthn:extension:prf&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="sessionId" value="13f14b0a8393672280e901178a4223aa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing" time="69.014" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing" status="PASSED">
+         <system-out><![CDATA[2023-08-11 05:58:51 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing: Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing
+
+2023-08-11 05:58:52 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - Story: Login to CURA system
+
+2023-08-11 05:58:52 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+2023-08-11 05:58:52 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - User set preference: ['browserVersion', '114']
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=902399, tunnelId=, usingTunnel=false}']
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-08-11 05:58:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-11 05:59:48 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2023-08-11 05:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2023-08-11 05:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2023-08-11 05:59:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), User): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2023-08-11 05:59:52 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2023-08-11 05:59:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Pass): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2023-08-11 05:59:55 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2023-08-11 05:59:55 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+2023-08-11 05:59:55 - [MESSAGE][INFO] - When he logins to CURA system
+
+2023-08-11 05:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2023-08-11 05:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2023-08-11 05:59:56 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+2023-08-11 05:59:56 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+2023-08-11 05:59:56 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2023-08-11 05:59:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2023-08-11 05:59:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-08-11 05:59:58 - [MESSAGE][PASSED] - Browser is closed
+
+2023-08-11 06:00:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing' .
+
+2023-08-11 06:00:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-11 05:58:51 - [TEST_SUITE][PASSED] - Sample Test Suite: Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

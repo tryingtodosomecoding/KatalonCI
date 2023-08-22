@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample Test Suite,Chrome 115.0.0.0,,,2023-08-21 10:34:56,2023-08-21 11:05:37,30m - 41.588s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC3_Visual Testing Example,Chrome 115.0.0.0,,,2023-08-21 10:34:56,2023-08-21 11:05:37,30m - 41.159s,FAILED
+"comment(""Story: Book an appointment"")",Chrome 115.0.0.0,,,2023-08-21 10:34:57,2023-08-21 10:34:57,0.109s,PASSED
+"comment(""Given that the user has logged into their account"")",Chrome 115.0.0.0,,,2023-08-21 10:34:57,2023-08-21 10:34:57,0.008s,PASSED
+openBrowser(G_SiteURL),Chrome 115.0.0.0,,,2023-08-21 10:34:57,2023-08-21 10:35:10,12.963s,PASSED
+"takeScreenshotAsCheckpoint(""login page lakshmi"")",Chrome 115.0.0.0,This for visual test and you use Take Screenshot as a checkpoint,,2023-08-21 10:35:10,2023-08-21 10:35:11,1.087s,PASSED
+"callTestCase(findTestCase(""Common Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Chrome 115.0.0.0,,,2023-08-21 10:35:11,2023-08-21 10:35:15,4.281s,PASSED
+"comment(""And Appointment page is displayed"")",Chrome 115.0.0.0,,,2023-08-21 10:35:15,2023-08-21 10:35:15,0.001s,PASSED
+if (true),Chrome 115.0.0.0,,,2023-08-21 10:35:15,2023-08-21 10:35:27,11.683s,PASSED
+"comment(""When he fills in valid information in Appointment page"")",Chrome 115.0.0.0,,,2023-08-21 10:35:27,2023-08-21 10:35:27,0.017s,PASSED
+"click(findTestObject(""Page_CuraAppointment/btn_BookAppointment""))",Chrome 115.0.0.0,,,2023-08-21 10:35:27,2023-08-21 10:35:29,2.243s,PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 115.0.0.0,,,2023-08-21 10:35:29,2023-08-21 10:35:31,2.073s,PASSED
+"comment(""Then he should be able to book a new appointment"")",Chrome 115.0.0.0,,,2023-08-21 10:35:31,2023-08-21 10:35:31,0.011s,PASSED
+if (true),Chrome 115.0.0.0,,,2023-08-21 10:35:31,2023-08-21 11:05:34,30m - 2.752s,FAILED
+Video,Chrome 115.0.0.0,,,2023-08-21 11:05:37,2023-08-21 11:05:37,0.003s,PASSED

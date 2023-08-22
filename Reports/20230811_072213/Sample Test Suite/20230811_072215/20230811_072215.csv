@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample Test Suite,Windows - Chrome 114.0.0.0,,,2023-08-11 07:22:20,2023-08-11 07:23:29,1m - 8.766s,PASSED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing,Windows - Chrome 114.0.0.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2023-08-11 07:22:20,2023-08-11 07:23:29,1m - 8.352s,PASSED
+"comment(""Story: Login to CURA system"")",Windows - Chrome 114.0.0.0,,,2023-08-11 07:22:21,2023-08-11 07:22:21,0.098s,PASSED
+"comment(""Given that the user has the valid login information"")",Windows - Chrome 114.0.0.0,,,2023-08-11 07:22:21,2023-08-11 07:22:21,0.012s,PASSED
+openBrowser(G_SiteURL),Windows - Chrome 114.0.0.0,,,2023-08-11 07:22:21,2023-08-11 07:23:17,55.700s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:17,2023-08-11 07:23:18,1.352s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), User)",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:18,2023-08-11 07:23:21,2.200s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Pass)",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:21,2023-08-11 07:23:23,1.989s,PASSED
+"comment(""When he logins to CURA system"")",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:23,2023-08-11 07:23:23,0.002s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:23,2023-08-11 07:23:24,1.344s,PASSED
+"comment(""Then he should be able to login successfully"")",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:24,2023-08-11 07:23:24,0.011s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:24,2023-08-11 07:23:25,0.851s,PASSED
+closeBrowser(),Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:25,2023-08-11 07:23:27,1.840s,PASSED
+Video,Windows - Chrome 114.0.0.0,,,2023-08-11 07:23:29,2023-08-11 07:23:29,0.001s,PASSED

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sample Test Suite,,,,2023-08-08 17:36:23,2023-08-08 17:36:36,12.731s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login - Test Suite Data Driven Testing,,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2023-08-08 17:36:23,2023-08-08 17:36:36,12.369s,FAILED
+"comment(""Story: Login to CURA system"")",,,,2023-08-08 17:36:25,2023-08-08 17:36:25,0.149s,PASSED
+"comment(""Given that the user has the valid login information"")",,,,2023-08-08 17:36:25,2023-08-08 17:36:26,0.009s,PASSED
+openBrowser(G_SiteURL),,,,2023-08-08 17:36:26,2023-08-08 17:36:34,8.190s,FAILED
+Video,,,,2023-08-08 17:36:36,2023-08-08 17:36:36,0.001s,PASSED
